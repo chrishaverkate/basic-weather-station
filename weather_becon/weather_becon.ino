@@ -56,7 +56,7 @@ void loop() {
     Serial.println("send failed");
   }
 
-//  radio.powerDown();
-//  LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);
+  radio.powerDown();
+  LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);
   delay(2000);
 }
